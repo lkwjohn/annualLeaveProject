@@ -1,10 +1,10 @@
 {
-  "name": "annualleaveproject",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cd server && node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/lkwjohn/annualLeaveProject/issues"
   },
-  "homepage": "https://github.com/lkwjohn/annualLeaveProject#readme"
+  "homepage": "https://github.com/lkwjohn/annualLeaveProject#readme",
+  "dependencies": {
+    "csv-parser": "^2.3.1",
+    "express": "^4.17.1",
+    "read-excel-file": "^4.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
 }
