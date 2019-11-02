@@ -17,11 +17,8 @@
   },
   "homepage": "https://github.com/lkwjohn/annualLeaveProject#readme",
   "dependencies": {
-    "csv-parser": "^2.3.1",
+    "csv-writer": "^1.5.0",
     "express": "^4.17.1",
     "read-excel-file": "^4.0.3"
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.4"
   }
 }

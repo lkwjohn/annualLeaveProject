@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lkwjohn/annualLeaveProject/issues"
   },
-  "homepage": "https://github.com/lkwjohn/annualLeaveProject#readme"
+  "homepage": "https://github.com/lkwjohn/annualLeaveProject#readme",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
 }
